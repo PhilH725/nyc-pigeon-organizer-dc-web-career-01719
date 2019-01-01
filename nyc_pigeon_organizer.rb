@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute, att_value|
     att_value.each do |symbol, pidgeon_name|
       if not pidgeon_hash[pidgeon_name]
-        pidgeon_hash[pidgeon_name] = {:color => [], :gender => [], :lives => []}
+        pidgeon_hash[pidgeon_name] = {:color => [1], :gender => [], :lives => []}
       end
     end
   end
