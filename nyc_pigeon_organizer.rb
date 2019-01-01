@@ -10,6 +10,12 @@ def nyc_pigeon_organizer(data)
       pidgeon_name.each do |i|
         if not pidgeon_hash[i]
           pidgeon_hash[i] = {:color => [], :gender => [], :lives => []}
+        else
+          pidgeon_hash.each do |key, value_array|
+            if key == attribute
+              value_array << symbol
+            end
+          end
         end
       end
     end
