@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
       puts pidgeon_name
       #if not pidgeon_hash[pidgeon_name]
         #pidgeon_hash[pidgeon_name] = {:color => [1], :gender => [], #:lives => []}
-      end
+      #end
     end
   end
   puts pidgeon_hash
