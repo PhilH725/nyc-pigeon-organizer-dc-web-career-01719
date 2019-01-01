@@ -12,7 +12,6 @@ def nyc_pigeon_organizer(data)
           pidgeon_hash[i] = {:color => [], :gender => [], :lives => []}
         else
           pidgeon_hash[i].each do |key, value_array|
-            binding.pry
             if key == attribute
               value_array << symbol.to_s
             end
