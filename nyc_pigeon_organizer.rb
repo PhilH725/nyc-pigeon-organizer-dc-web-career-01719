@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
         else
           pidgeon_hash.each do |key, value_array|
             if key == attribute
-              value_array << symbol
+              value_array << symbol.to_s
             end
           end
         end
